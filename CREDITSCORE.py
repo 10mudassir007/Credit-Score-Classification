@@ -12,7 +12,7 @@ from sklearn.exceptions import DataConversionWarning
 warnings.filterwarnings("ignore",category=FutureWarning)
 warnings.filterwarnings("ignore", category=DataConversionWarning)
 
-df = pd.read_csv('Logistic-Regression/bank.csv')
+df = pd.read_csv('bank.csv')
 
 #Categorical Features
 categorical_features = ['Gender','Education','Marital Status','Home Ownership']
